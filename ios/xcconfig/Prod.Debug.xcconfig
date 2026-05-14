@@ -1,0 +1,7 @@
+// Prod flavor — Debug build type
+#include? "../Pods/Target Support Files/Pods-CICDBareTest/Pods-CICDBareTest.debug-prod.xcconfig"
+
+ENVFILE=../.env.prod
+
+PRODUCT_NAME = CICDBareTest
+PRODUCT_BUNDLE_IDENTIFIER = com.codeandtheory.templatepipelinetest

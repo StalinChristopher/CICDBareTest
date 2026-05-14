@@ -1,0 +1,7 @@
+// QA flavor — Debug build type
+#include? "../Pods/Target Support Files/Pods-CICDBareTest/Pods-CICDBareTest.debug-qa.xcconfig"
+
+ENVFILE=../.env.qa
+
+PRODUCT_NAME = CICDBareTest QA
+PRODUCT_BUNDLE_IDENTIFIER = com.codeandtheory.templatepipelinetest.qa
