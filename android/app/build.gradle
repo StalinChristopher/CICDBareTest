@@ -110,8 +110,10 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
-        // react-native-config: BuildConfig lives in `namespace`, not in applicationId when using
-        // applicationIdSuffix — without this, native code resolves the wrong class and env is wrong.
+                //
+        // Resource shrinking (buildTypes.release shrinkResources) can strip unused strings. The
+        // `build_config_package` string is kept via app/src/main/res/raw/keep.xml (tools:keep).
+        // If you rename or remove this resValue key, update keep.xml in the same change.
         resValue "string", "build_config_package", "com.codeandtheory.templatepipelinetest"
     }
 

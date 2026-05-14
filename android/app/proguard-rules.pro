@@ -22,7 +22,6 @@
 # react-native-config
 -keep class com.lugg.reactnativeconfig.** { *; }
 -keep class **.BuildConfig { *; }
--keepresources string/build_config_package
 
 # Keep JavaScript interface methods called from native code
 -keepclassmembers class * extends com.facebook.react.bridge.JavaScriptModule { *; }
