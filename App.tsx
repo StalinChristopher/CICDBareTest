@@ -26,12 +26,12 @@ function App() {
     <GestureHandlerRootView style={{ flex: 1 }}>
       <BottomSheetModalProvider>
         <SafeAreaProvider>
-                <FeedbackProvider>
-          <QueryProvider>
-            <AppThemeProvider>
-              <ThemedNavigationContainer />
-            </AppThemeProvider>
-          </QueryProvider>
+          <FeedbackProvider>
+            <QueryProvider>
+              <AppThemeProvider>
+                <ThemedNavigationContainer />
+              </AppThemeProvider>
+            </QueryProvider>
           </FeedbackProvider>
         </SafeAreaProvider>
       </BottomSheetModalProvider>

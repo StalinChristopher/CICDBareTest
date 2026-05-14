@@ -30,7 +30,7 @@ export type DrawerParamList = {
   TabRoot: NavigatorScreenParams<MainTabParamList>;
   About: undefined;
   Settings: ProfileStackParamList['Settings'];
-  MediaPlayer: undefined,
+  MediaPlayer: undefined;
   FeedbackCatalog: undefined;
 };
 
